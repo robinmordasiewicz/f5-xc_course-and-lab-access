@@ -47,8 +47,8 @@ sys.path.insert(0, os.path.abspath("."))
 rst_prolog = open(os.path.join(CURDIR, 'rst_prolog.inc'),'r').read()
 rst_epilog = open(os.path.join(CURDIR, 'rst_epilog.inc'),'r').read()
 
-is_subproject=True
-readthedocs_url="https://f5-xc-workspaces.readthedocs.io/"
+#is_subproject=True
+#readthedocs_url="https://f5-xc-workspaces.readthedocs.io
 #"subprojecttoctree",
 
 extensions = [
@@ -77,9 +77,9 @@ html_theme_options = {
     "show_toc_level": 4,
     "show_prev_next": False,
     "footer_items": ["last-updated"],
-    "site_name": "Infrastructure As Code",
+    "site_name": "Course and Lab Access",
     "next_prev_link": True,
-    "repository_url": "https://github.com/robinmordasiewicz/f5-xc-iac",
+    "repository_url": "https://github.com/robinmordasiewicz/f5-xc_course-and-lab-access",
     "github_url": "https://github.com",
     "use_edit_page_button": True,
     "use_repository_button": True,
@@ -101,7 +101,7 @@ html_context = {
     "doc_path": "docs",
 }
 
-html_title = "Infrastructure As Code"
+html_title = "Course and Lab Access"
 html_logo = "images/logo_f5.svg"
 
 graphviz_output_format = "svg"
