@@ -5,6 +5,9 @@
 Course and Lab Access
 =====================
 
+.. toctree::
+   :hidden:
+
 .. topic:: Course and Lab Access
 
     Registered attendees have been emailed an invitation to the lab environment:
